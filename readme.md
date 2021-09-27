@@ -39,7 +39,7 @@ O parâmetro que é passado para essa função, é um objeto com algumas informa
     to: 'email@destinatário.com, ...',
     subject: 'Título do e-mail',
     text: 'Texto a ser enviado',
-    html: "Aqui pode ser enviado <b>códigos</b> em <i>HTML</i>" // Se tiver HTML, não é enviado o campo de cima
+    html: "Aqui pode ser enviado <b>códigos</b> em <i>HTML</i>"
 }
 ```
 1. Atributo "from" por padrão você coloca o nome e entre menor e maior (<>) coloca o e-mail mocado no atributo "user" da variável transporter.
